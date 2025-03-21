@@ -1,0 +1,20 @@
+{
+  "name": "John Doe",
+  "age": 30,
+  "profession": "Software Developer",
+  "address": {
+    "street": "123 Main Street",
+    "city": "Sample City",
+    "postal_code": "12345"
+  },
+  "contacts": [
+    {
+      "type": "Phone",
+      "number": "123456789"
+    },
+    {
+      "type": "Email",
+      "address": "john.doe@example.com"
+    }
+  ]
+}
