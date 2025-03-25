@@ -1,20 +1,128 @@
 {
-  "name": "John Doe",
-  "age": 30,
-  "profession": "Software Developer",
-  "address": {
-    "street": "123 Main Street",
-    "city": "Sample City",
-    "postal_code": "12345"
-  },
-  "contacts": [
-    {
-      "type": "Phone",
-      "number": "123456789"
-    },
-    {
-      "type": "Email",
-      "address": "john.doe@example.com"
+    "supplier": "Supplier ABC",
+    "data": {
+        "OEE": [
+            {
+                "value": "88.88",
+                "target": "100",
+                "limit": null,
+                "date": "2025-03-10",
+                "date_type": "dtd",
+                "attributes": {
+                    "Manufacturer": "Supplier ABC",
+                    "Plant": "Supplier ABC",
+                    "Project": "Project 1",
+                    "Line": "Line 1",
+                    "Process": ""
+                }
+            }
+        ],
+        "scrap_rate": [
+            {
+                "value": "1.05",
+                "limit": "1.5",
+                "date": "2025-03-10",
+                "date_type": "dtd",
+                "attributes": {
+                    "Manufacturer": "Supplier ABC",
+                    "Plant": "Supplier",
+                    "Project": "Project 1",
+                    "Line": "Line 1",
+                    "Process": ""
+                }
+            }
+        ],
+        "production_time": [
+            {
+                "value": "1590",
+                "target": "1632",
+                "date": "2025-03-10",
+                "date_type": "dtd",
+                "attributes": {
+                    "Manufacturer": "Supplier ABC",
+                    "Plant": "Supplier ABC",
+                    "Project": "Project 1",
+                    "Line": "Line 1",
+                    "Process": ""
+                }
+            }
+        ],
+        "output": [
+            {
+                "value": "1590",
+                "target": "1632",
+                "date": "2025-03-10",
+                "date_type": "dtd",
+                "attributes": {
+                    "Manufacturer": "Supplier ABC",
+                    "Plant": "Supplier ABC",
+                    "Project": "Project 1",
+                    "Line": "Line 1",
+                    "Process": "",
+                    "SNR": ""
+                }
+            }
+        ],
+        "special_trips": [
+            {
+                "value": "0",
+                "date": "2025-03-10",
+                "date_type": "dtd",
+                "attributes": {
+                    "Manufacturer": "Supplier ABC",
+                    "Customer Plant": "",
+                    "Supplier Plant": "Supplier ABC",
+                    "Project": "Project 1"
+                }
+            }
+        ],
+        "coverage_fg": [
+            {
+                "DOH": 47.44,
+                "stock": 5936,
+                "backlog": 15,
+                "date": "2025-03-10",
+                "date_type": "dtd",
+                "attributes": {
+                    "Manufacturer": "Supplier ABC",
+                    "Plant": "Supplier ABC",
+                    "Project": "Project 1",
+                    "Part Name": "Part 12345",
+                    "SNR": "ABC123"
+                }
+            }
+        ],
+        "coverage_rm": [
+            {
+                "DOH": 53.56,
+                "stock": 5936,
+                "backlog": 16,
+                "date": "2025-03-10",
+                "date_type": "dtd",
+                "attributes": {
+                    "Manufacturer": "Supplier ABC",
+                    "Plant": "Supplier ABC",
+                    "Project": "Project 1",
+                    "Part Name": "Part 12345",
+                    "SNR": "ABC123"
+                }
+            }
+        ],
+        "coverage_sc": [
+            {
+                "DOH": 88.23,
+                "stock": 5936,
+                "backlog": 17,
+                "date": "2025-03-10",
+                "date_type": "dtd",
+                "attributes": {
+                    "Manufacturer": "Supplier ABC",
+                    "Plant": "Supplier ABC",
+                    "Project": "Project 1",
+                    "Part Name": "Part 12345",
+                    "SNR": "ABC123"
+                }
+            }
+        ]
     }
-  ]
 }
